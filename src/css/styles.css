@@ -648,7 +648,7 @@ p {
     position: relative;
     width: 100%;
     min-height: 890px;
-    background-image: url("../images/collection_promo.webp");
+    background-image: url("../../assets/images/collection_promo.webp");
     background-size: cover;
     background-position: center;
     display: flex;
