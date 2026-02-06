@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Oppdag vårt utvalg av tekniske vinterklær. Her finner du alt fra varme dunjakker til pustende skibukser. Finn dine favoritter hos Rainy Days og bli klar for fjellet."
+        />
+        <title>Rainy Days | Vintersportsklær: Jakker, bukser og utstyr</title>
+        <link href="src/css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/dpp5vtd.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    </head>
+    <body class="products-page">
+        <header class="hero">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/RainyDays_Logo_mini.png" alt="Rainy Days Logo" /></a>
+                </div>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <div class="nav-menu-full">
+                    <div class="menu-columns">
+                        <div class="menu-col">
+                            <h3>BUTIKKEN</h3>
+                            <ul>
+                                <li><a href="products.html ">Herre</a></li>
+                                <li><a href="products.html">Dame</a></li>
+                                <li><a href="products.html">Barn</a></li>
+                                <li><a href="products.html">Bestselger</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-col">
+                            <h3>INFO</h3>
+                            <ul>
+                                <li><a href="products.html">Om oss</a></li>
+                                <li><a href="products.html">Butikker</a></li>
+                                <li><a href="products.html">Medlemskap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="products.html">HERRE</a></li>
+                    <li><a href="products.html">DAME</a></li>
+                    <li><a href="products.html">BARN</a></li>
+                    <li><a href="products.html">OPPDAG</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="products.html" class="btn btn--navy btn--filled btn--sm">
+                        <span class="material-symbols-outlined btn-icon">north_east</span>
+                        Logg på
+                    </a>
+                </div>
+            </nav>
+
+            <div class="hero-parallax">
+                <div class="parallax-layer layer-sky">
+                    <img src="assets/images/hero_sky.webp" alt="" />
+                </div>
+
+                <div class="parallax-layer layer-text">
+                    <h1 class="hero-title">RAINYDAYS</h1>
+                </div>
+
+                <div class="parallax-layer layer-mountain">
+                    <img src="assets/images/hero_mountain_cutout.webp" alt="" />
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="products__content container">
+                <aside class="products__filters">
+                    <div class="breadcrumbs">
+                        <p>Hjem / Ny kolleksjon</p>
+                    </div>
+                    <h2 class="filters__title">Filtre</h2>
+
+                    <form action="" method="GET">
+                        <div class="active-filters">
+                            <div class="active-filters__list">
+                                <a href="#" class="filter-chip">
+                                    Herre
+                                    <span class="material-symbols-outlined">close</span>
+                                </a>
+                                <a href="#" class="filter-chip">
+                                    Jakker
+                                    <span class="material-symbols-outlined">close</span>
+                                </a>
+                                <a href="#" class="filter-chip">
+                                    Navy
+                                    <span class="material-symbols-outlined">close</span>
+                                </a>
+                            </div>
+                            <button type="reset" class="filter-clear-all">Fjern alle filter</button>
+                        </div>
+
+                        <details class="filter-group" open>
+                            <summary class="filter-group__summary">
+                                Avdeling
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </summary>
+                            <div class="filter-group__content">
+                                <label class="filter-option">
+                                    <input type="checkbox" name="avdeling" value="damme" />
+                                    Damme
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" name="avdeling" value="herre" />
+                                    Herre
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" name="avdeling" value="barn" />
+                                    Barn
+                                </label>
+                            </div>
+                        </details>
+
+                        <details class="filter-group" open>
+                            <summary class="filter-group__summary">
+                                Kategori
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </summary>
+                            <div class="filter-group__content">
+                                <label class="filter-option">
+                                    <input type="checkbox" name="category" value="jakker" />
+                                    Jakker
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" name="category" value="bukser" />
+                                    Bukser
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" name="category" value="sko" />
+                                    Sko
+                                </label>
+                            </div>
+                        </details>
+
+                        <details class="filter-group">
+                            <summary class="filter-group__summary">
+                                Størrelse
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </summary>
+                            <div class="filter-group__content filter-group__content--sizes">
+                                <label class="size-tile">
+                                    <input type="checkbox" name="size" value="xs" />
+                                    <span>XS</span>
+                                </label>
+                                <label class="size-tile">
+                                    <input type="checkbox" name="size" value="s" />
+                                    <span>S</span>
+                                </label>
+                                <label class="size-tile">
+                                    <input type="checkbox" name="size" value="m" />
+                                    <span>M</span>
+                                </label>
+                                <label class="size-tile">
+                                    <input type="checkbox" name="size" value="l" />
+                                    <span>L</span>
+                                </label>
+                                <label class="size-tile">
+                                    <input type="checkbox" name="size" value="xl" />
+                                    <span>XL</span>
+                                </label>
+                                <label class="size-tile">
+                                    <input type="checkbox" name="size" value="xxl" />
+                                    <span>XXL</span>
+                                </label>
+                            </div>
+                        </details>
+
+                        <details class="filter-group">
+                            <summary class="filter-group__summary">
+                                Farge
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </summary>
+                            <div class="filter-group__content filter-group__content--colors">
+                                <label class="filter-color" title="Navy">
+                                    <input type="checkbox" name="color" value="navy" />
+                                    <span class="color-swatch" style="background-color: var(--color-navy)"></span>
+                                </label>
+                                <label class="filter-color" title="Ocean Blue">
+                                    <input type="checkbox" name="color" value="ocean" />
+                                    <span class="color-swatch" style="background-color: var(--color-ocean-blue)"></span>
+                                </label>
+                                <label class="filter-color" title="Teal">
+                                    <input type="checkbox" name="color" value="teal" />
+                                    <span class="color-swatch" style="background-color: var(--color-teal)"></span>
+                                </label>
+                                <label class="filter-color" title="Black">
+                                    <input type="checkbox" name="color" value="black" />
+                                    <span class="color-swatch" style="background-color: var(--color-black)"></span>
+                                </label>
+                                <label class="filter-color" title="White">
+                                    <input type="checkbox" name="color" value="white" />
+                                    <span
+                                        class="color-swatch"
+                                        style="background-color: var(--color-white); border: 1px solid #ddd"
+                                    ></span>
+                                </label>
+                                <label class="filter-color" title="Grey">
+                                    <input type="checkbox" name="color" value="grey" />
+                                    <span class="color-swatch" style="background-color: #808080"></span>
+                                </label>
+                                <label class="filter-color" title="Red">
+                                    <input type="checkbox" name="color" value="red" />
+                                    <span class="color-swatch" style="background-color: #e03131"></span>
+                                </label>
+                                <label class="filter-color" title="Orange">
+                                    <input type="checkbox" name="color" value="orange" />
+                                    <span class="color-swatch" style="background-color: #f08c00"></span>
+                                </label>
+                                <label class="filter-color" title="Green">
+                                    <input type="checkbox" name="color" value="green" />
+                                    <span class="color-swatch" style="background-color: #2f9e44"></span>
+                                </label>
+                                <label class="filter-color" title="Yellow">
+                                    <input type="checkbox" name="color" value="yellow" />
+                                    <span class="color-swatch" style="background-color: #fab005"></span>
+                                </label>
+                            </div>
+                        </details>
+
+                        <details class="filter-group">
+                            <summary class="filter-group__summary">
+                                Pris
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </summary>
+                            <div class="filter-group__content">
+                                <div class="range-wrapper">
+                                    <input
+                                        type="range"
+                                        name="min_price"
+                                        min="0"
+                                        max="10000"
+                                        value="2000"
+                                        class="range-input min-range"
+                                    />
+                                    <input
+                                        type="range"
+                                        name="max_price"
+                                        min="0"
+                                        max="10000"
+                                        value="8000"
+                                        class="range-input max-range"
+                                    />
+                                    <div class="range-slider-track"></div>
+                                </div>
+                                <div class="price-values">
+                                    <span>2000 NOK</span>
+                                    <span>8000 NOK</span>
+                                </div>
+                            </div>
+                        </details>
+
+                        <details class="filter-group">
+                            <summary class="filter-group__summary">
+                                Materiale
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </summary>
+                            <div class="filter-group__content">
+                                <label class="filter-option">
+                                    <input type="checkbox" name="material" value="gore-tex" />
+                                    Gore-Tex
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" name="material" value="ull" />
+                                    Ull
+                                </label>
+                                <label class="filter-option">
+                                    <input type="checkbox" name="material" value="resirkulert-polyester" />
+                                    Resirkulert polyester
+                                </label>
+                            </div>
+                        </details>
+
+                        <div class="filter-actions">
+                            <button type="submit" class="btn btn--accent btn--filled btn--lg">
+                                <span class="material-symbols-outlined btn-icon">north_east</span>
+                                Bruk filtre
+                            </button>
+                        </div>
+                    </form>
+                </aside>
+                <div class="prducts__columne">
+                    <div class="breadcrumbs">
+                        <p>Hjem / Ny kolleksjon</p>
+                        <div class="breadcrumbs__actions">
+                            <a href="#" class="btn btn--accent btn--ghost btn--sm">
+                                Filtre
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </a>
+                            <a href="#" class="btn btn--accent btn--ghost btn--sm">
+                                Sorter etter
+                                <span class="material-symbols-outlined">expand_more</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="products__grid">
+                        <article class="product-card" id="product_1">
+                            <div class="product-card__image">
+                                <img src="assets/images/product_1.webp" alt="Fjellguard vinterjakke" />
+                            </div>
+                            <div class="product-card__info">
+                                <div class="info__row">
+                                    <span class="product-name">FJELLGUARD</span>
+                                    <span class="price">2799 KR</span>
+                                </div>
+                                <p>Vinterjakke</p>
+                                <div class="product-card__actions">
+                                    <button class="btn-wishlist" aria-label="Legg til i favoritter">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </button>
+                                    <a href="product_page.html" class="btn btn--accent btn--ghost btn--sm">
+                                        <span class="material-symbols-outlined">north_east</span>
+                                        Les mer
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="assets/images/product_2.webp" alt="Nordpeak skalljakke" />
+                            </div>
+                            <div class="product-card__info">
+                                <div class="info__row">
+                                    <span class="product-name">NORDPEAK</span>
+                                    <span class="price">3199 KR</span>
+                                </div>
+                                <p>Skalljakke</p>
+                                <div class="product-card__actions">
+                                    <button class="btn-wishlist" aria-label="Legg til i favoritter">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </button>
+                                    <a href="product_page.html" class="btn btn--accent btn--ghost btn--sm">
+                                        <span class="material-symbols-outlined">north_east</span>
+                                        Les mer
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="assets/images/product_3.webp" alt="Arctic Trail parkas" />
+                            </div>
+                            <div class="product-card__info">
+                                <div class="info__row">
+                                    <span class="product-name">ARCTIC TRAIL</span>
+                                    <span class="price">3899 KR</span>
+                                </div>
+                                <p>Parkas</p>
+                                <div class="product-card__actions">
+                                    <button class="btn-wishlist" aria-label="Legg til i favoritter">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </button>
+                                    <a href="product_page.html" class="btn btn--accent btn--ghost btn--sm">
+                                        <span class="material-symbols-outlined">north_east</span>
+                                        Les mer
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="assets/images/product_4.webp" alt="Stormheim isolert jakke" />
+                            </div>
+                            <div class="product-card__info">
+                                <div class="info__row">
+                                    <span class="product-name">STORMHEIM</span>
+                                    <span class="price">2999 KR</span>
+                                </div>
+                                <p>Isolert jakke</p>
+                                <div class="product-card__actions">
+                                    <button class="btn-wishlist" aria-label="Legg til i favoritter">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </button>
+                                    <a href="product_page.html" class="btn btn--accent btn--ghost btn--sm">
+                                        <span class="material-symbols-outlined">north_east</span>
+                                        Les mer
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="assets/images/product_5.webp" alt="Varg shell jakke" />
+                            </div>
+                            <div class="product-card__info">
+                                <div class="info__row">
+                                    <span class="product-name">VARG SHELL</span>
+                                    <span class="price">2499 KR</span>
+                                </div>
+                                <p>Shelljakke</p>
+                                <div class="product-card__actions">
+                                    <button class="btn-wishlist" aria-label="Legg til i favoritter">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </button>
+                                    <a href="product_page.html" class="btn btn--accent btn--ghost btn--sm">
+                                        <span class="material-symbols-outlined">north_east</span>
+                                        Les mer
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <div class="product-card__image" id="product_6">
+                                <img src="assets/images/product_6.webp" alt="Polar Crest teknisk jakke" />
+                            </div>
+                            <div class="product-card__info">
+                                <div class="info__row">
+                                    <span class="product-name">POLAR CREST</span>
+                                    <span class="price">3499 KR</span>
+                                </div>
+                                <p>Teknisk jakke</p>
+                                <div class="product-card__actions">
+                                    <button class="btn-wishlist" aria-label="Legg til i favoritter">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </button>
+                                    <a href="product_page.html" class="btn btn--accent btn--ghost btn--sm">
+                                        <span class="material-symbols-outlined">north_east</span>
+                                        Les mer
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="slider-controls">
+                        <div class="controls__dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="controls__arrows">
+                            <a href="#product_1" class="arrow-btn arrow-btn--prev">
+                                <span class="material-symbols-outlined">west</span>
+                            </a>
+                            <a href="#product_6" class="arrow-btn arrow-btn--next">
+                                <span class="material-symbols-outlined">east</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="membership">
+                <img src="assets/images/membership_bg.webp" class="membership__bg-img" alt="" />
+                <div class="membership__content">
+                    <p class="header-label header-label--light">MEDLEMSKAP</p>
+                    <h2>BLI MED I VÅRT FRILUFTSLIV-FELLESSKAP</h2>
+                    <p class="membership__description">
+                        Som medlem får du tilgang til spesialtilbud, invitasjoner til arrangementer og workshops,
+                        mulighet til å teste nye produkter før alle andre, og samle poeng på alle dine kjøp. Bli en del
+                        av historien vår og opplev naturen fullt ut.
+                    </p>
+
+                    <div class="membership__actions">
+                        <a href="products.html" class="btn btn--accent btn--filled btn--sm">
+                            <span class="material-symbols-outlined btn-icon">north_east</span>
+                            Bli medlem
+                        </a>
+                        <a href="products.html" class="btn btn--accent btn--ghost btn--sm">
+                            <span class="material-symbols-outlined btn-icon">north_east</span>
+                            Logg på
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__col newsletter">
+                    <a href="index.html">
+                        <img src="assets/images/RainyDays_Logo.png" alt="Rainy Days Logo" class="footer__logo" />
+                    </a>
+                    <p>Meld deg på nyhetsbrevet vårt for å holde deg oppdatert om nye produkter og lanseringer</p>
+
+                    <form class="newsletter__form">
+                        <input type="email" placeholder="Skriv din e-post" required />
+                        <button type="submit" class="btn btn--navy btn--filled btn--lg">
+                            <span class="material-symbols-outlined btn-icon">north_east</span>
+                            Abonere
+                        </button>
+                    </form>
+                    <p class="newsletter__disclaimer">
+                        Ved å abonnere godtar du vår personvernerklæring og samtykker til oppdateringer
+                    </p>
+                </div>
+
+                <div class="footer__col">
+                    <h3>BUTIKKEN</h3>
+                    <ul>
+                        <li><a href="products.html">Herre</a></li>
+                        <li><a href="products.html">Dame</a></li>
+                        <li><a href="products.html">Barn</a></li>
+                        <li><a href="products.html">Bestselger</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3>INFO</h3>
+                    <ul>
+                        <li><a href="products.html">Om oss</a></li>
+                        <li><a href="products.html">Butikker</a></li>
+                        <li><a href="products.html">Medlemskap</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3>FØLG OSS</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-x-twitter"></i>
+                                X
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                                Youtube
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>© 2025 Rainy Days. Alle rettigheter forbeholdt</p>
+                <div class="footer__legal">
+                    <a href="#">Personvern</a>
+                    <a href="#">Vilkår for tjeneste</a>
+                    <a href="#">Innstillinger for informasjonskapsler</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

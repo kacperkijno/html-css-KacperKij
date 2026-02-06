@@ -1,0 +1,3 @@
+prototype desktop: https://www.figma.com/proto/UFOAAvZUn2bt5BE1yGlhOL/Rainy-days?page-id=7%3A6&node-id=12-246&viewport=-3522%2C1635%2C0.21&t=VVMD3iNxpdWQclrx-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=12%3A246
+
+prototype mobile: https://www.figma.com/proto/UFOAAvZUn2bt5BE1yGlhOL/Rainy-days?page-id=7%3A6&node-id=68-1337&viewport=-3522%2C1635%2C0.21&t=VVMD3iNxpdWQclrx-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=68%3A1337
