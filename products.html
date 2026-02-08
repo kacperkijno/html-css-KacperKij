@@ -121,7 +121,7 @@
                             <div class="filter-group__content">
                                 <label class="filter-option">
                                     <input type="checkbox" name="avdeling" value="damme" />
-                                    Damme
+                                    Dmme
                                 </label>
                                 <label class="filter-option">
                                     <input type="checkbox" name="avdeling" value="herre" />
@@ -498,7 +498,12 @@
                     <p>Meld deg på nyhetsbrevet vårt for å holde deg oppdatert om nye produkter og lanseringer</p>
 
                     <form class="newsletter__form">
-                        <input type="email" placeholder="Skriv din e-post" required />
+                        <input
+                            type="email"
+                            placeholder="Skriv din e-post"
+                            aria-label="E-postadresse for nyhetsbrev"
+                            required
+                        />
                         <button type="submit" class="btn btn--navy btn--filled btn--lg">
                             <span class="material-symbols-outlined btn-icon">north_east</span>
                             Abonere
